@@ -1,2 +1,15 @@
-.highpriority {
-  
+.high {
+  background-color:#d82020;
+  font-size:18pt;
+  font-color:#27dfdf;
+  }
+.med{
+  background-color:#d88020;
+  font-size:18pt;
+  font-color:#277fdf;
+}
+.low{
+  background-color:#202020;
+  font-size:18pt;
+  font-color:#dfdfdf;
+}
