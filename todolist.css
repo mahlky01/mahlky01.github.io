@@ -13,3 +13,6 @@
   font-size:14pt;
   color:#dfdfdf;
   }
+.done {
+  text-decoration: line through;
+}
