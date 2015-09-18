@@ -1,19 +1,19 @@
- ul#high > li {
+ ul#high {
   background-color:#d82020;
   font-size:18pt;
   color:#f0f0f0;
   }
-ul#med > li {
+ul#med {
   background-color:#d88020;
   font-size:16pt;
   color:#f0f0f0;
   }
-ul#low > li {
+ul#low {
   background-color:#909090;
   font-size:14pt;
   color: #101010;
   }
-ul#done > li {
+ul#done {
   background-color:#101010;
   color: cyan;
 }
