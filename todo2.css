@@ -1,4 +1,5 @@
  ul#high {
+  height: 30px;
   overflow: auto;
   background-color:#d82020;
   font-size:18pt;
@@ -19,6 +20,8 @@ ul#done {
   color: cyan;
 }
 section {
+ 
+ overflow: auto;
  border: 5px;
  border-color: #808080;
 }
