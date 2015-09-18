@@ -17,3 +17,6 @@ ul#done > li {
   background-color:#101010;
   color: cyan;
 }
+section {
+ border: 2px;
+}
