@@ -23,6 +23,7 @@ section {
  width: 400px;
  overflow: auto;
  border: 5px solid #000000;
+ float: left;
 }
 h3 {
  font-size: 22pt;
