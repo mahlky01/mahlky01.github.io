@@ -18,8 +18,8 @@ ul#done {
   color: cyan;
 }
 section {
- border: 2px;
- border-color: #000000;
+ border: 5px;
+ border-color: #808080;
 }
 h3 {
  font-size: 22pt;
