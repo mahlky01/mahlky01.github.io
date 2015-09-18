@@ -18,8 +18,8 @@ ul#done {
   color: cyan;
 }
 section {
- height: 100px;
- width: 300px;
+ height: 200px;
+ width: 400px;
  overflow: auto;
  border: 5px solid #000000;
 }
