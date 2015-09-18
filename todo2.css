@@ -20,7 +20,8 @@ ul#done {
   color: cyan;
 }
 section {
- 
+ height: 30px;
+ width: 60px;
  overflow: auto;
  border: 5px;
  border-color: #808080;
