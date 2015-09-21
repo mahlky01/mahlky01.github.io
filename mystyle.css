@@ -1,3 +1,14 @@
 h1 {
   color: blue;
   }
+mypic {
+  float: right;
+}
+header {
+  position: fixed;
+  width: 100%;
+}
+nav {
+  position:fixed;
+  width: 100%;
+}
