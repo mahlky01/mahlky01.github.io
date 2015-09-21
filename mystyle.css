@@ -7,8 +7,10 @@ mypic {
 header {
   position: fixed;
   width: 100%;
+  background: blue;
 }
 nav {
   position:fixed;
   width: 100%;
+  background: green;
 }
