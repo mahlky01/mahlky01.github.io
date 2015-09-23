@@ -1,5 +1,7 @@
 #mypic {
   float: right;
+  position: absolute;
+  
 }
 h1 {
   font-size: 18pt;
