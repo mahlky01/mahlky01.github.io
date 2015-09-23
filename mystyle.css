@@ -13,7 +13,6 @@ header {
 nav {
   margin-top: 50px;
   height: 50px;
-  position:fixed;
   width: 100%;
   background: green;
 }
