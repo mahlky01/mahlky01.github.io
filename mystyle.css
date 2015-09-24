@@ -20,4 +20,5 @@ p #first {
 }
 main {
   width: 90%;
+  float: right;
 }
