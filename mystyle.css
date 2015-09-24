@@ -1,16 +1,14 @@
 #mypic {
   float: right;
-  position: absolute;
-  
 }
 h1 {
   font-size: 18pt;
 }
 header {
   position: fixed;
-  height: 50px;
+  height: 0px;
   width: 100%;
-  background: blue;
+  background: #0030e0;
 }
 nav {
   margin-top: 50px;
