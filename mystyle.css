@@ -1,22 +1,18 @@
 #mypic {
   float: right;
 }
-h1 {
-  font-size: 18pt;
-}
 header {
   position: fixed;
   height: 50px;
   top: 0px;
   left: -3px;
-  width: 110%;
+  width: 120%;
   background: #30d060;
 }
 #head {
   text-align:center;
   line-height:30px;
   width:100%;
-  
   font-size:18px;
 }
 aside {
@@ -31,6 +27,7 @@ p #first {
 main {
   width: 90%;
   float: right;
+  height: 500px;
   margin-top: 0px;
   background-color:#e0e0e0;
 }
