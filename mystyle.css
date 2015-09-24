@@ -13,7 +13,7 @@ header {
 }
 aside {
   height: 500px;
-  width: 5%;
+  width: 10%;
   background: #50e020;
   margin-top: 60px;
   margin-right: 0px;
@@ -23,10 +23,8 @@ p #first {
   margin-top: 300px;
 }
 main {
-  width: 89%;
+  width: 90%;
   float: right;
   margin-top: 60px;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 60px;
+  background-color:#e0e0e0;
 }
