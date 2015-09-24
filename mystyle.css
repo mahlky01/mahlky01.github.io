@@ -6,7 +6,7 @@ h1 {
 }
 header {
   position: fixed;
-  top: 1px;
+  top: 0px;
   width: 100%;
   background: #20e050;
 }
