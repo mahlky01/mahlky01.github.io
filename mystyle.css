@@ -6,7 +6,7 @@ h1 {
 }
 header {
   position: fixed;
-  height: 60px;
+  height: 50px;
   top: 0px;
   left: -4px;
   width: 110%;
@@ -14,7 +14,7 @@ header {
 }
 #head {
   text-align:center;
-  line-height:60px;
+  line-height:50px;
   width:100%;
   
   font-size:18px;
@@ -23,7 +23,7 @@ aside {
   height: 500px;
   width: 10%;
   background: #cf2f9f;
-  margin-top: 60px;
+  margin-top: 55px;
 }
 p #first {
   margin-top: 180px;
