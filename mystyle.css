@@ -8,6 +8,7 @@ header {
   position: fixed;
   height: 60px;
   top: 0px;
+  left: -5px;
   width: 100%;
   background: #30d060;
 }
@@ -16,8 +17,6 @@ aside {
   width: 10%;
   background: #cf2f9f;
   margin-top: 60px;
-  margin-right: 0px;
-  margin-left: 0px;
 }
 p #first {
   margin-top: 180px;
@@ -25,6 +24,9 @@ p #first {
 main {
   width: 90%;
   float: right;
-  margin-top: 60px;
+  margin-top: 0px;
+  background-color:#e0e0e0;
+}
+section{
   background-color:#e0e0e0;
 }
