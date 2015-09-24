@@ -9,18 +9,18 @@ header {
   height: 60px;
   top: 0px;
   width: 100%;
-  background: #20e050;
+  background: #30d060;
 }
 aside {
   height: 500px;
   width: 10%;
-  background: #df1faf;
+  background: #cf2f9f;
   margin-top: 60px;
   margin-right: 0px;
   margin-left: 0px;
 }
 p #first {
-  margin-top: 300px;
+  margin-top: 180px;
 }
 main {
   width: 90%;
