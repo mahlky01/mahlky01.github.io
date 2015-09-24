@@ -6,15 +6,15 @@ h1 {
 }
 header {
   position: fixed;
-  height: -30px;
+  top: 10px;
   width: 100%;
   background: #20e050;
 }
 nav {
-  margin-top: 200px;
-  height: 50px;
-  width: 100%;
-  background: green;
+  
+  height: 500px;
+  width: 20%;
+  background: #e05020;
 }
 p #first {
   margin-top: 300px;
