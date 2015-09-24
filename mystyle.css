@@ -6,9 +6,9 @@ h1 {
 }
 header {
   position: fixed;
-  height: 0px;
+  height: -30px;
   width: 100%;
-  background: #0030e0;
+  background: #20e050;
 }
 nav {
   margin-top: 50px;
