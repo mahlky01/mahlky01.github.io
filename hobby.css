@@ -5,9 +5,7 @@ body {
 img {
   float: right;
 }
-h1 {
-  font-size:18pt;
-}
+
 header {
   position: fixed;
   height: 70px;
