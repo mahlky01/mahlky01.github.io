@@ -5,9 +5,6 @@ body {
 #mypic {
   float: right;
 }
-hi {
-  font-size:18pt;
-}
 header {
   position: fixed;
   height: 70px;
