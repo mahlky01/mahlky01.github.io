@@ -6,7 +6,7 @@ body {
 img {
   float: right;
 }
-last {
+#last {
   position: relative;
   top: 75px;
   left: 100px;
