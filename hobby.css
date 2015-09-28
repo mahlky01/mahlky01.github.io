@@ -3,6 +3,9 @@ body {
   margin: 0px;
 }
 
+img {
+  float: right;
+}
 header {
   position: fixed;
   height: 70px;
