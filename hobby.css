@@ -22,10 +22,10 @@ nav {
   width: 10%;
   background: #cf2f9f;
   margin-top: 70px;
-}
-
+  float: left;
 }
 aside {
+  float: right;
   width: 90%;
   height: 500px;
   margin-top: 70px;
