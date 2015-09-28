@@ -2,7 +2,7 @@ body {
   background-color: #e0e0e0;
   margin: 0px;
 }
-.pic {
+img {
   float: right;
 }
 h1 {
@@ -22,7 +22,7 @@ header {
   width:100%;
   font-size:18px;
 }
-aside {
+nav {
   height: 500px;
   width: 10%;
   background: #cf2f9f;
