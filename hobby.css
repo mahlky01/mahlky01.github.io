@@ -6,6 +6,11 @@ body {
 img {
   float: right;
 }
+last {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
 header {
   position: fixed;
   height: 70px;
