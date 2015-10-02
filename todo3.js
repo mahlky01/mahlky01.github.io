@@ -1,3 +1,3 @@
 cross = function() {
-            document.body.style.background = "green";
+            document.body.style.backgroundColor = "green";
          }
