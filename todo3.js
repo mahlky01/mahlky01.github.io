@@ -1,3 +1,3 @@
 cross = function() {
-            document.body.style = "strike";
+            document.body.style.background = "green";
          }
