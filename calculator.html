@@ -1,44 +1,8 @@
 <html>
-  	<script>
-      add = function() {
-        var Num1;
-        var Num2;
-        var Result;
-        Num1 = document.querySelector("#num1").value;
-        Num2 = document.querySelector("#num2").value;
-        Result = parseFloat(Num1) + parseFloat(Num2);
-        document.querySelector("#result").value = Result;
-      }
-     subtract = function() {
-        var Num1;
-        var Num2;
-        var Result;
-        Num1 = document.querySelector("#num1").value;
-        Num2 = document.querySelector("#num2").value;
-        Result = parseFloat(Num1) - parseFloat(Num2);
-        document.querySelector("#result").value = Result;
-      }
-     multiply = function() {
-        var Num1;
-        var Num2;
-        var Result;
-        Num1 = document.querySelector("#num1").value;
-        Num2 = document.querySelector("#num2").value;
-        Result = parseFloat(Num1) * parseFloat(Num2);
-        document.querySelector("#result").value = Result;
-      }
-     divide = function() {
-        var Num1;
-        var Num2;
-        var Result;
-        Num1 = document.querySelector("#num1").value;
-        Num2 = document.querySelector("#num2").value;
-        Result = parseFloat(Num1) / parseFloat(Num2);
-        document.querySelector("#result").value = Result;
-      }
-        
-        
-    </script>
+  <head>
+    <title> Calculator </title>
+    <link rel="stylesheet" href="calculator.js" type=text/javascript>
+  </head>
     <body>
       <input id="num1" type=text value="Num 1" /><br>
       <input id="num2" type=text value="Num 2" /><br>
