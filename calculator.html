@@ -1,0 +1,51 @@
+<html>
+  	<script>
+      add = function() {
+        var Num1;
+        var Num2;
+        var Result;
+        Num1 = document.querySelector("#num1").value;
+        Num2 = document.querySelector("#num2").value;
+        Result = parseFloat(Num1) + parseFloat(Num2);
+        document.querySelector("#result").value = Result;
+      }
+     subtract = function() {
+        var Num1;
+        var Num2;
+        var Result;
+        Num1 = document.querySelector("#num1").value;
+        Num2 = document.querySelector("#num2").value;
+        Result = parseFloat(Num1) - parseFloat(Num2);
+        document.querySelector("#result").value = Result;
+      }
+     multiply = function() {
+        var Num1;
+        var Num2;
+        var Result;
+        Num1 = document.querySelector("#num1").value;
+        Num2 = document.querySelector("#num2").value;
+        Result = parseFloat(Num1) * parseFloat(Num2);
+        document.querySelector("#result").value = Result;
+      }
+     divide = function() {
+        var Num1;
+        var Num2;
+        var Result;
+        Num1 = document.querySelector("#num1").value;
+        Num2 = document.querySelector("#num2").value;
+        Result = parseFloat(Num1) / parseFloat(Num2);
+        document.querySelector("#result").value = Result;
+      }
+        
+        
+    </script>
+    <body>
+      <input id="num1" type=text value="Num 1" /><br>
+      <input id="num2" type=text value="Num 2" /><br>
+      <button onclick="add()">+</button>
+      <button onclick="subtract()">-</button>
+      <button onclick="multiply()">*</button>
+      <button onclick="divide()">/</button><br>
+      <input id="result" type=text value="Result" />
+    </body>
+</html>
