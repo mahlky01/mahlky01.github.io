@@ -4,3 +4,15 @@ body {
 #title {
   background-color: blue;
   }
+.high {
+  text-color: red;
+}
+.med {
+  text-color: orange;
+}
+.low {
+  text-color: yellow;
+}
+.strike {
+  style: strike;
+}
