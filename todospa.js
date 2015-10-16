@@ -9,11 +9,11 @@ newItem = function() {
   li = document.createElement("li");
   li.appendChild(document.createTextNode(input));
   ul.appendChild(li);
-  checkbox = document.createElement("input");
-  checkbox.type = checkbox;
-  li.appendChild(checkbox);
-  var priority;
-  priority = document.querySelector(#priority).value;
-  li.style.class = "." + priority;
+  //checkbox = document.createElement("input");
+  //checkbox.type = checkbox;
+  //li.appendChild(checkbox);
+  //var priority;
+  //priority = document.querySelector(#priority).value;
+  //li.style.class = "." + priority;
   }
     
