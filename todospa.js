@@ -1,5 +1,4 @@
 newItem = function() {
-  alert("hello");
   var li;
   var input;
   var ul;
@@ -12,8 +11,8 @@ newItem = function() {
   checkbox = document.createElement("input");
   checkbox.type = 'checkbox';
   li.appendChild(checkbox);
-  var priority;
-  priority = document.querySelector(#priority).value;
-  li.style.class = "." + priority;
+  //var priority;
+  //priority = document.querySelector(#priority).value;
+  //li.style.class = "." + priority;
   }
     
