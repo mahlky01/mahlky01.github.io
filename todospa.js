@@ -4,8 +4,8 @@ newItem = function() {
   var input;
   var ul;
   var checkbox;
-  ul = document.querySelector(#ul);
-  input = document.querySelector(#input).value;
+  ul = document.querySelector("#ul");
+  input = document.querySelector("#input").value;
   li = document.createElement("li");
   li.appendChild(document.createTextNode(input));
   ul.appendChild(li);
