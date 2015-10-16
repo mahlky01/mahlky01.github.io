@@ -1,4 +1,4 @@
-newItem = function {
+newItem = function() {
   alert("hello");
   var li;
   var input;
