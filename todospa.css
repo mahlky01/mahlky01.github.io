@@ -14,5 +14,5 @@ body {
   text-color: yellow;
 }
 .strike {
-  style: strike;
+  text-decoration: line-through;
 }
