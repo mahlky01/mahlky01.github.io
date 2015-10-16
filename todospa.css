@@ -8,7 +8,8 @@ section {
   margin-left: 10px;
 }
 #title {
-  background-color: blue;
+  background-color: #8888ff;
+  text-align: center;
   }
 .high {
   color: red;
