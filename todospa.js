@@ -1,5 +1,5 @@
 newItem = function {
-  alert("hello")
+  alert("hello");
   var li;
   var input;
   var ul;
