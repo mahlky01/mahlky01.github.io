@@ -13,8 +13,14 @@ newItem = function() {
   li.appendChild(checkbox);
   var priority;
   priority = document.querySelector(#priority).value;
-  if (priority=='high') {li.className = "high"}
-  if (priority=='med') {li.className = "med"}
-  if (priority=='low') {li.className = "low"}
+  if (priority=='high') {
+    li.className = "high"
+  }
+  if (priority=='med') {
+    li.className = "med"
+  }
+  if (priority=='low') {
+    li.className = "low"
+  }
   }
     
