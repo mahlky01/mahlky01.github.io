@@ -4,6 +4,9 @@ body {
   margin-right:0px;
   margin-left: 0px;
 }
+section {
+  margin-left: 10px;
+}
 #title {
   background-color: blue;
   }
