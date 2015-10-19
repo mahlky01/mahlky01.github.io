@@ -10,7 +10,7 @@ newItem = function() {
   checkbox = document.createElement("input");
   checkbox.type = 'checkbox';
   li.appendChild(checkbox);
-  li.appendChild(document.createElement("input"));
+  li.appendChild(document.createTextNode(input));
   //var priority;
   //priority = document.querySelector("#priority").value;
   //if (priority=='high') {
