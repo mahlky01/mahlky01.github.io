@@ -25,9 +25,14 @@ newItem = function() {
   }
   }
   
-check = function() {
-  var text;
-  text = this.parentNode;
-  text.className = text.className + " strike";
+  check = function() {
+    var text;
+    text = this.parentNode;
+    if(this.checked){
+      text.classList.add("strike");
+    }else{
+      text.classList.remove("strike");
+    }
+    
   }
     
