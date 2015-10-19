@@ -23,4 +23,10 @@ newItem = function() {
     li.className = "low"
   }
   }
+  
+check = function() {
+  var text;
+  text = this.parentNode;
+  text.className = text.className + " strike";
+  }
     
