@@ -12,7 +12,7 @@ newItem = function() {
   checkbox.type = 'checkbox';
   li.appendChild(checkbox);
   var priority;
-  priority = document.querySelector(#priority).value;
+  priority = document.querySelector("#priority").value;
   //if (priority=='high') {
   //  li.className = "high"
   //}
