@@ -11,16 +11,16 @@ newItem = function() {
   checkbox.type = 'checkbox';
   li.appendChild(checkbox);
   li.appendChild(document.createTextNode(input));
-  //var priority;
-  //priority = document.querySelector("#priority").value;
-  //if (priority=='high') {
-  //  li.className = "high"
-  //}
-  //if (priority=='med') {
-  //  li.className = "med"
-  //}
-  //if (priority=='low') {
-  //  li.className = "low"
-  //}
+  var priority;
+  priority = document.querySelector("#priority").value;
+  if (priority=='high') {
+    li.className = "high"
+  }
+  if (priority=='med') {
+    li.className = "med"
+  }
+  if (priority=='low') {
+    li.className = "low"
+  }
   }
     
