@@ -11,8 +11,8 @@ newItem = function() {
   checkbox = document.createElement("input");
   checkbox.type = 'checkbox';
   li.appendChild(checkbox);
-  var priority;
-  priority = document.querySelector("#priority").value;
+  //var priority;
+  //priority = document.querySelector("#priority").value;
   //if (priority=='high') {
   //  li.className = "high"
   //}
