@@ -7,10 +7,10 @@ newItem = function() {
   input = document.querySelector("#input").value;
   li = document.createElement("li");
   ul.appendChild(li);
-  //checkbox = document.createElement("input");
-  //checkbox.type = 'checkbox';
-  //li.appendChild(checkbox);
-  //li.appendChild(document.createTextNode(input));
+  checkbox = document.createElement("input");
+  checkbox.type = 'checkbox';
+  li.appendChild(checkbox);
+  li.appendChild(document.createTextNode(input));
   //var priority;
   //priority = document.querySelector("#priority").value;
   //if (priority=='high') {
