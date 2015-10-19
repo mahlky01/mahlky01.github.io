@@ -8,7 +8,8 @@ newItem = function() {
   li = document.createElement("li");
   ul.appendChild(li);
   checkbox = document.createElement("input");
-  checkbox.type = 'checkbox';
+  checkbox.type = "checkbox";
+  checkbox.onclick = "check";
   li.appendChild(checkbox);
   li.appendChild(document.createTextNode(input));
   var priority;
