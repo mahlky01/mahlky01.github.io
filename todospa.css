@@ -11,7 +11,10 @@ section {
 #title {
   background-color: #8888ff;
   text-align: center;
-  }
+}
+#ul {
+  background-color: #ff8888;
+}
 .high {
   color: red;
 }
