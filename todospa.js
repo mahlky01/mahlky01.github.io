@@ -37,5 +37,5 @@ newItem = function() {
   }
   
   window.onload = function() {
-    restoreList(document.querySelector('#ul'),'check();');
+    restoreList(ul,'check');
   }
