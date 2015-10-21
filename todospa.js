@@ -37,5 +37,5 @@ newItem = function() {
   }
   
   window.onload = function() {
-    restoreList('ul','check');
+    restoreList('ul',check);
   }
