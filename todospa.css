@@ -13,6 +13,7 @@ section {
   text-align: center;
 }
 #ul {
+  list-style-type: none;
   background-color: #ff8888;
 }
 li {
