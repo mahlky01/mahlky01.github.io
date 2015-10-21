@@ -23,7 +23,7 @@ newItem = function() {
   if (priority=='low') {
     li.className = "low"
   }
-  localSave(ul);
+  localSave('ul');
   }
   
   check = function() {
@@ -37,5 +37,5 @@ newItem = function() {
   }
   
   window.onload = function() {
-    restoreList(ul,'check');
+    restoreList('ul','check');
   }
