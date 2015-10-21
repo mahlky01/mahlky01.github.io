@@ -23,7 +23,7 @@ newItem = function() {
   if (priority=='low') {
     li.className = "low"
   }
-  localSave(li);
+  localSave(ul);
   }
   
   check = function() {
