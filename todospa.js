@@ -34,6 +34,7 @@ newItem = function() {
     }else{
       text.classList.remove("done");
     }
+    localSave('ul');
   }
   
   window.onload = function() {
