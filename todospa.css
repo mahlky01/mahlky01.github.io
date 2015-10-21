@@ -9,12 +9,12 @@ section {
   margin-left: 10px;
 }
 #title {
-  background-color: #8888ff;
+  background-color: #ff8888;
   text-align: center;
 }
 #ul {
   list-style-type: none;
-  background-color: #ff8888;
+  background-color: #8888ff;
 }
 li {
   font-size: 16pt;
