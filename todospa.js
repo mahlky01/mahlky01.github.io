@@ -29,14 +29,14 @@ newItem = function() {
     var text;
     text = this.parentNode;
     if(this.checked){
-      text.classList.add("strike");
+      text.classList.add("done");
     }else{
-      text.classList.remove("strike");
+      text.classList.remove("done");
     }
   }
   
   window.onbeforeunload = function() {
-  localSave('#ul');
+    localSave('#ul');
   }
   
   window.onload = function() {
