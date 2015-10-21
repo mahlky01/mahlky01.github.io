@@ -23,7 +23,7 @@ newItem = function() {
   if (priority=='low') {
     li.className = "low"
   }
-  localSave(document.querySelector('#ul'));
+  localSave(li);
   }
   
   check = function() {
