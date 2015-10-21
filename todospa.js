@@ -23,6 +23,7 @@ newItem = function() {
   if (priority=='low') {
     li.className = "low"
   }
+  localSave(document.querySelector('#ul'));
   }
   
   check = function() {
@@ -33,10 +34,6 @@ newItem = function() {
     }else{
       text.classList.remove("done");
     }
-  }
-  
-  window.onbeforeunload = function() {
-    localSave(document.querySelector('#ul'));
   }
   
   window.onload = function() {
