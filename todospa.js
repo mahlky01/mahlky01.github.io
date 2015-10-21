@@ -33,6 +33,12 @@ newItem = function() {
     }else{
       text.classList.remove("strike");
     }
-    
   }
-    
+  
+  window.onbeforeunload = function() {
+  localSave('#ul');
+  }
+  
+  window.onload = function() {
+    restoreList('#ul','check();');
+  }
