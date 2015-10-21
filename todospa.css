@@ -33,6 +33,6 @@ li {
 .low {
   color: green;
 }
-.strike {
+.done {
   text-decoration: line-through;
 }
