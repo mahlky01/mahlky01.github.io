@@ -12,6 +12,7 @@ section {
   background-color: #ff8888;
   text-align: center;
   height: 50px;
+  vertical-align: middle;
 }
 #ul {
   list-style-type: none;
