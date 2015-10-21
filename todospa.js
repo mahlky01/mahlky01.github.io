@@ -36,9 +36,9 @@ newItem = function() {
   }
   
   window.onbeforeunload = function() {
-    localSave('#ul');
+    localSave(document.querySelector('#ul'));
   }
   
   window.onload = function() {
-    restoreList('#ul','check();');
+    restoreList(document.querySelector('#ul'),'check();');
   }
